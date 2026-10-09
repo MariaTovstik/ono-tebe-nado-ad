@@ -1,6 +1,6 @@
-.header{
+.header {
   display: grid;
-  padding: 0 50px;
+  padding: 92px 50px 0;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
 }
@@ -54,27 +54,27 @@
 .cover {
   position: relative;
   z-index: 0;
-  padding: 165px 50px 50px;
   box-sizing: border-box;
+  padding: 165px 50px 50px;
   min-height: 757px;
+  margin-top: 92px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
 }
 
 .cover_title {
-  padding: 165px 50px 0px;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 100px;
-  line-height: 130px;
+  line-height: 100px;
   text-decoration-skip-ink: none;
    text-underline-position: from-font;
   text-transform: uppercase;
   letter-spacing: 0.3em;
+  z-index: 1;
 }
 
 .accent-span {
@@ -250,16 +250,17 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
+  gap: 25px;
   box-sizing: border-box;
   min-height: 595px;
-  margin-top: 120px;
+  margin-top: 180px;
   padding: 0 24px;
 }
 
-.about__logo{
-    position: relative;
+.about__logo {
+ /* position: relative;
   top: 35px;
-  left: 47px;
+  left: 47px;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -313,8 +314,9 @@
   box-sizing: border-box;
   min-height: 180px;
   margin-top: 180px;
-  padding-right: 50px;
-  padding-left: 50px;
+  /*padding-right: 50px;
+  padding-left: 50px;*/
+  padding: 0 50px 92px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
