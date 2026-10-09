@@ -74,7 +74,7 @@
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 100px;
-  line-height: 115px;
+  line-height: 100px;
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
   text-transform: uppercase;
@@ -86,7 +86,7 @@
 .accent-span {
   display: block;
   margin:0;
-  line-height: 115px;
+  line-height: 100px;
 }
 
 .aligned-text_center {
@@ -166,7 +166,7 @@
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 40px;
-  line-height: 46.96px;
+  line-height: 47px;
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
   text-transform: uppercase;
@@ -292,7 +292,7 @@
   padding: 0;
 }
 
-.about_box {
+.about__box {
   justify-self: end;
   width: 693px;
   padding-top: 133;
@@ -304,7 +304,7 @@
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 40px;
-  line-height: 46.96px;
+  line-height: 47px;
   text-align: left;
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
