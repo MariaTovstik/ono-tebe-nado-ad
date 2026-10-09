@@ -68,20 +68,23 @@
 }
 
 .cover_title {
+  padding: 0;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 100px;
   line-height: 100px;
   text-decoration-skip-ink: none;
-   text-underline-position: from-font;
+  text-underline-position: from-font;
   text-transform: uppercase;
   letter-spacing: 0.3em;
+  position: relative;
   z-index: 1;
 }
 
 .accent-span {
   display: block;
+  margin:0;
 }
 
 .aligned-text_center {
@@ -199,7 +202,7 @@
 }
 
 .card__title {
-  padding: 48px 40px 0;
+  padding: 50px 40px 0;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -211,10 +214,12 @@
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
   text-transform: uppercase;
+  position: relative;
+  z-index: 1
 }
 
 .card__text {
-  padding: 0 40px 48px;
+  padding: 0 40px 50px;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
