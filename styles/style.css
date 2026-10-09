@@ -56,7 +56,7 @@
   z-index: 0;
   box-sizing: border-box;
   padding: 165px 50px 50px;
-  min-height: 757px;
+  height: 757px;
   margin-top: 92px;
   display: flex;
   flex-direction: column;
@@ -267,8 +267,10 @@
   grid-template-columns: 334px 1fr;
   gap: 25px;
   box-sizing: border-box;
-  margin-top: 120px;
-  padding: 0 24px;
+  margin: 120px auto 0;
+  padding: 0;
+  width: 1052px;
+  height: 595px;
 }
 
 .about__logo {
@@ -332,9 +334,9 @@
   align-items: start;
   box-sizing: border-box;
   margin-top: 180px;
-  /*padding-right: 50px;
-  padding-left: 50px;*/
-  padding: 0;
+  padding: 0 50px;
+  height: 180px;
+  width: 100%;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -346,7 +348,7 @@
 .footer__menu-list {
   text-align: center;
   padding: 0;
-  margin: 1px 0 115px; /* Замер: 1px сверху, 115px снизу */
+  margin: 0;
   list-style: none;
 }
 
