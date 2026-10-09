@@ -266,7 +266,6 @@
   grid-template-columns: 334px 1fr;
   gap: 25px;
   box-sizing: border-box;
-  min-height: 595px;
   margin-top: 180px;
   padding: 0 24px;
 }
@@ -286,10 +285,14 @@
 }
 
 .about__logo-image {
-  padding: 50px 50px;
+  /*padding: 50px 50px;*/
+  width: 148px;
+  height: auto;
+  padding: 0;
 }
 
 .about__title {
+  margin-top: 0;
   margin-bottom: 24px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -308,6 +311,7 @@
 }
 
 .about__text {
+  margin-top: 0;
   margin-bottom: 24px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -369,9 +373,4 @@
 
 .address.footer__address a {
   color: #000000;
-}
-
-
-body {
-  background-color: red !important;
 }
