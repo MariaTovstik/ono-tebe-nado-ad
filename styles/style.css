@@ -74,7 +74,7 @@
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 100px;
-  line-height: 100px;
+  line-height: 115px;
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
   text-transform: uppercase;
@@ -295,7 +295,7 @@
 .about__box {
   justify-self: end;
   width: 693px;
-  padding-top: 133;
+  padding-top: 136;
   margin:0;
 }
 .about__title {
