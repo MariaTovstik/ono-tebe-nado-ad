@@ -58,6 +58,9 @@
   padding: 165px 50px 50px;
   min-height: 757px;
   margin-top: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,10 +112,11 @@
   text-underline-position: from-font;
   text-transform: uppercase;
   word-spacing: 20px;
+  margin: 0;
 }
 
 .bet-button {
-  justify-self: end;
+  /*justify-self: end;*/
   flex-shrink: 0;
   width: 256px;
   height: 51px;
@@ -121,7 +125,7 @@
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 22px;
-  line-height: 25.83px;
+  /*line-height: 25.83px;*/
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
   text-transform: uppercase;
@@ -168,6 +172,7 @@
   gap: 25px;
   margin-top: 27px;
   margin-bottom: 30px;
+  padding: 0;
   list-style-type: none;
   list-style: none;
   background-repeat: no-repeat;
@@ -261,6 +266,7 @@
  /* position: relative;
   top: 35px;
   left: 47px;*/
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
